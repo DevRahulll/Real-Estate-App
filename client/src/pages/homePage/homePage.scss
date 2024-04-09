@@ -1,0 +1,39 @@
+.homePage{
+    display: flex;
+    height: 100%;
+
+    .textContainer{
+        flex: 3;
+        
+        .wrapper{
+            padding-right: 100px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            justify-content: center;
+            height: 100%;
+
+            .title{
+                font-size: 64px;
+            }
+
+            .boxes{
+                
+            }
+        }
+    }
+
+    .imgContainer{
+        flex: 2;
+        background-color: #fcf5f3;
+        position: relative;
+        display: flex;
+        align-items: center;
+
+        img{
+            width: 115%;
+            position: absolute;
+            right: 0;
+        }
+    }
+}
