@@ -9,9 +9,7 @@ function Navbar() {
       <div className="left">
 
         <a href="/" className="logo">
-
-          <img src="/logo.png" alt="logo" />
-
+          <img src="/logo.png" alt="" />
           <span>DevEstate</span>
         </a>
 
@@ -27,7 +25,6 @@ function Navbar() {
         <a href="/" className="register">SignUp</a>
 
         <div className="menuIcon">
-
           <img src="menu.png" alt="" onClick={() => setOpen((prev) => !prev)} />
 
           <div className={open ? "menu active" : "menu"}>

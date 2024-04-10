@@ -1,6 +1,6 @@
 import React from 'react'
 import './homePage.scss'
-import SearchBar from '../../components/navbar/searchBar/SearchBar';
+import SearchBar from "../../components/searchBar/SearchBar.jsx"
 
 function HomePage() {
   return (
@@ -9,7 +9,7 @@ function HomePage() {
         <div className="wrapper">
         <h1 className='title'>Find Real Estate & Get Your Dream Place</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis minima consequuntur totam! Consectetur pariatur fugit reiciendis earum. Perferendis, repudiandae id?</p>
-        <SearchBar/>
+         <SearchBar/>
         <div className="boxes">
           <div className="box">
             <h1>16+</h1>
