@@ -1,19 +1,27 @@
-import React from 'react'
 import "./filter.scss"
 
 function Filter() {
   return (
+
     <div className="filter">
-      <h1>Search results for <b>Delhi</b></h1>
+
+      <h1>
+        Search results for <b>Delhi</b>
+        </h1>
+
       <div className="top">
+
         <div className="item">
-          <label htmlFor="city">Location</label>
+
+          <label htmlFor="city">Location </label>
+
           <input
             type="text"
             name="city"
             id="city"
             placeholder='City Location'
           />
+        </div>
         </div>
         <div className="bottom">
           <div className="item">
@@ -66,7 +74,6 @@ function Filter() {
           </button>
         </div>
       </div>
-    </div>
   )
 }
 
