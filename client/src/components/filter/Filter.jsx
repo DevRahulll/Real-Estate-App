@@ -12,7 +12,7 @@ function Filter() {
             type="text"
             name="city"
             id="city"
-            placeholder='city Location'
+            placeholder='City Location'
           />
         </div>
         <div className="bottom">
@@ -40,7 +40,7 @@ function Filter() {
               type="number"
               name="minPrice"
               id="minPrice"
-              placeholder='any'
+              placeholder='Any'
             />
           </div>
           <div className="item">
@@ -49,7 +49,7 @@ function Filter() {
               type="number"
               name="maxPrice"
               id="maxPrice"
-              placeholder='maxPrice'
+              placeholder='Any'
             />
           </div>
           <div className="item">
