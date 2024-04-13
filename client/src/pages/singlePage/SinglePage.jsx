@@ -17,14 +17,16 @@ function singlePage() {
                   <img src="/pin.png" alt="" />
                   <span>{singlePostData.address}</span>
                 </div>
-                <div className="price">{singlePostData.price}</div>
+                <div className="price">₹ {singlePostData.price}</div>
               </div>
               <div className="user">
                 <img src={userData.img} alt="" />
                 <span>{userData.name}</span>
               </div>
             </div>
-            <div className="bottom"></div>
+            <div className="bottom">
+              {singlePostData.description}
+            </div>
           </div>
         </div>
       </div>

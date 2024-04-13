@@ -9,6 +9,7 @@
       padding-right: 50px;
 
       .info {
+        margin-top: 50px;
 
         .top {
 
@@ -44,6 +45,15 @@
             }
           }
           .user {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            padding: 0 50px;
+            border-radius: 10px;
+            background-color: rgba(254,205,81,0.209);
+            font-weight: 600;
             img{
                 width: 50px;
                 height: 50px;
@@ -53,8 +63,11 @@
 
           }
         }
-        // .bottom {
-        // }
+        .bottom {
+          margin-top: 50px;
+          color: #555;
+          line-height: 20px;
+        }
       }
     }
   }
