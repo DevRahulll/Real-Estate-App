@@ -13,6 +13,7 @@ function Map({items}) {
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
             {items.map(item=>{
+                // console.log(item);
                 <Pin item={item} key={item.id}/>
             })}
         </MapContainer>
