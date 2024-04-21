@@ -23,12 +23,12 @@ function Slider({ images }) {
         setImageIndex(imageIndex + 1)
       }
     }
-  }
+  };
 
   return (
     <div className="slider">
 
-      {imageIndex != null &&
+      {imageIndex != null && (
         <div className="fullSlider">
 
           <div className="arrow">
@@ -47,7 +47,7 @@ function Slider({ images }) {
             onClick={() => setImageIndex(null)}
           >X</div>
         </div>
-      }
+      )}
 
       <div className="bigImage" >
         <img src={images[0]} alt="" onClick={() => setImageIndex(0)} />

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Marker, Popup } from 'react-leaflet'
 import { Link } from 'react-router-dom'
+import "./pin.scss"
 
 function Pin({ item }) {
 
