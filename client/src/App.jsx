@@ -6,6 +6,7 @@ import Layout from './pages/layout/Layout.jsx';
 import ListPage from "./pages/listPage/ListPage.jsx";
 import HomePage from "./pages/homePage/HomePage.jsx"
 import SinglePage from "./pages/singlePage/SinglePage.jsx"
+import Profile from "./pages/profilePage/Profile.jsx";
 
 
 
@@ -27,6 +28,10 @@ function App() {
         {
           path:"/:id",
           element:<SinglePage/>
+        },
+        {
+          path:"/profile",
+          element:<Profile/>
         },
       ]
     }
